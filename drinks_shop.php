@@ -142,9 +142,11 @@
           <div class="p-3">
             <h5 class="modal-title" id="colalLabel">Coca Cola</h5>
             <p>330ML €2,50</p>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+            <form action="cart.php" method="POST">
+                <div class="cart_add">
+                    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+                </div>
+            </form>
           </div>
         </div>
       </div>
@@ -164,9 +166,11 @@
           <div class="p-3">
             <h5 class="modal-title" id="fantaModalLabel">Fanta</h5>
           <p>330ML €2,50</p>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+                <div class="cart_add">
+                    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+                </div>
+            </form>
           </div>
         </div>
       </div>
@@ -184,9 +188,11 @@
           <div class="p-3">
             <h5 class="modal-title" id="spriteModalLabel">Sprite</h5>
           <p>330ML €2,50</p>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+                <div class="cart_add">
+                    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+                </div>
+            </form>
           </div>
         </div>
       </div>
@@ -205,9 +211,11 @@
           <div class="p-3">
             <h5 class="modal-title" id="arizonaModalLabel">Arizona Ice Tea</h5>
           <p>500ML €2,99</p>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+                <div class="cart_add">
+                    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+                </div>
+            </form>
           </div>
         </div>
       </div>
@@ -226,9 +234,11 @@
           <div class="p-3">
             <h5 class="modal-title" id="monsterModalLabel">Monster Energy</h5>
           <p>500ML €3,49</p>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+                <div class="cart_add">
+                    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+                </div>
+            </form>
           </div>
         </div>
       </div>
@@ -247,9 +257,11 @@
           <div class="p-3">
             <h5 class="modal-title" id="monster_ultraModalLabel">Monster Energy Ultra</h5>
           <p>500ML €3,49</p>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+                <div class="cart_add">
+                    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+                </div>
+            </form>
           </div>
         </div>
       </div>
