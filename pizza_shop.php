@@ -170,6 +170,9 @@
               </label>
               <span class="topping-price">€1,00</span>
             </div>
+            <div class="cart_add">
+              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+            </div>
           </div>
         </div>
       </div>
@@ -184,17 +187,47 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
-          <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
-          <img src="assets/pizzas/pepperoni.jpg" class="modal-image">
+        <img src="assets/pizzas/pepperoni.jpg" class="modal-image">
+        <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
           <div class="p-3">
             <h5 class="modal-title" id="pepperoniModalLabel">Pizza Pepperoni</h5>
           <p>A flavorful pizza loaded with zesty tomato sauce, melted cheese, and savory pepperoni slices.</p>
+          <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping1" value="Topping 1">
+                Topping 1
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping2" value="Topping 2">
+                Topping 2
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping3" value="Topping 3">
+                Topping 3
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping4" value="Topping 4">
+                Topping 4
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="cart_add">
+              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- End Modal for Pizza Pepperoni -->
 
   <!-- Modal for Pizza Vegetarian -->
   <div class="modal fade" id="vegetarianModal" tabindex="-1" role="dialog" aria-labelledby="vegetarianModalLabel"
@@ -202,11 +235,42 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
-          <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
-          <img src="assets/pizzas/vegetarian.jpg" class="modal-image">
+        <img src="assets/pizzas/vegetarian.jpg" class="modal-image">
+        <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
           <div class="p-3">
             <h5 class="modal-title" id="vegetarianModalLabel">Pizza Vegetarian</h5>
           <p>A delicious pizza packed with an assortment of colorful vegetables, including bell peppers, onions, mushrooms, and olives.</p>
+          <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping1" value="Topping 1">
+                Topping 1
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping2" value="Topping 2">
+                Topping 2
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping3" value="Topping 3">
+                Topping 3
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping4" value="Topping 4">
+                Topping 4
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="cart_add">
+              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+            </div>
           </div>
         </div>
       </div>
@@ -220,11 +284,42 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
-          <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
-          <img src="assets/pizzas/hawaii.jpg" class="modal-image">
+        <img src="assets/pizzas/hawaii.jpg" class="modal-image">
+        <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
           <div class="p-3">
             <h5 class="modal-title" id="hawaiiModalLabel">Pizza Hawaii</h5>
           <p>An unconventional combination of sweet pineapple, tangy ham, and melted cheese on a pizza crust, offering a unique taste experience.</p>
+          <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping1" value="Topping 1">
+                Topping 1
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping2" value="Topping 2">
+                Topping 2
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping3" value="Topping 3">
+                Topping 3
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping4" value="Topping 4">
+                Topping 4
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="cart_add">
+              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+            </div>
           </div>
         </div>
       </div>
@@ -243,6 +338,37 @@
           <div class="p-3">
             <h5 class="modal-title" id="meatLoversModalLabel">Pizza Meat Lover's</h5>
           <p>A carnivore's delight featuring a variety of mouthwatering meats such as pepperoni, sausage, bacon, and ground beef, smothered in cheese.</p>
+          <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping1" value="Topping 1">
+                Topping 1
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping2" value="Topping 2">
+                Topping 2
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping3" value="Topping 3">
+                Topping 3
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping4" value="Topping 4">
+                Topping 4
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="cart_add">
+              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+            </div>
           </div>
         </div>
       </div>
@@ -261,6 +387,37 @@
           <div class="p-3">
             <h5 class="modal-title" id="mushroomsModalLabel">Pizza Mushrooms</h5>
           <p>A delightful pizza adorned with earthy and savory mushrooms, complemented by a blend of cheese and herbs. (vegetarian)</p>
+          <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping1" value="Topping 1">
+                Topping 1
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping2" value="Topping 2">
+                Topping 2
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping3" value="Topping 3">
+                Topping 3
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="topping-option">
+              <label class="topping-name">
+                <input type="checkbox" name="topping4" value="Topping 4">
+                Topping 4
+              </label>
+              <span class="topping-price">€1,00</span>
+            </div>
+            <div class="cart_add">
+              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+            </div>
           </div>
         </div>
       </div>
@@ -268,6 +425,7 @@
   </div>
   <!-- End Modal for Pizza Mushrooms -->
 
+  <script src="add_to_cart.js"></script>
 </body>
 
 <footer style="text-align: left; padding: 10px; background-color: #ffffff; border: 3px solid #4B4A48; margin-top:50px;">

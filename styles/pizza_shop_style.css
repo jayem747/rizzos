@@ -51,3 +51,9 @@ input[type="checkbox"] {
   margin: 0;
   z-index: 9999;
 }
+
+.cart_add {
+  background-color: transparent;
+  color: #4B4A48;
+  text-align: center;
+}
