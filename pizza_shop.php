@@ -46,7 +46,7 @@
       <button style="background-color: #4B4A48; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 20%; font-size: 18px; width: 100px;">Pizza</button>
     </a>
     <div style="width: 50px;"></div> <!-- Empty space with a width of 50px -->
-    <a href="drinks.html" style="text-decoration: none;">
+    <a href="drinks_shop.php" style="text-decoration: none;">
       <button style="background-color: #B32134; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 20%; font-size: 18px; width: 100px;">Drinks</button>
     </a>
   </div>
@@ -142,37 +142,42 @@
           <div class="p-3">
             <h5 class="modal-title" id="margheritaModalLabel">Pizza Margherita</h5>
             <p>A classic pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves. (vegetarian)</p>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+<form action="cart.php" method="POST">
+  <div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping1" name="toppings[]" value="Pepperoni">
+        Pepperoni
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping2" name="toppings[]" value="Mushrooms">
+        Mushrooms
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping3" name="toppings[]" value="Onions">
+        Onions
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping4" name="toppings[]" value="Olives">
+        Olives
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+  </div>
+<div class="cart_add">
+    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+  </div>
+</form>
+
           </div>
         </div>
       </div>
@@ -192,37 +197,42 @@
           <div class="p-3">
             <h5 class="modal-title" id="pepperoniModalLabel">Pizza Pepperoni</h5>
           <p>A flavorful pizza loaded with zesty tomato sauce, melted cheese, and savory pepperoni slices.</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+  <div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping1" name="toppings[]" value="Pepperoni">
+        Pepperoni
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping2" name="toppings[]" value="Mushrooms">
+        Mushrooms
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping3" name="toppings[]" value="Onions">
+        Onions
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping4" name="toppings[]" value="Olives">
+        Olives
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+  </div>
+<div class="cart_add">
+    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+  </div>
+</form>
+
           </div>
         </div>
       </div>
@@ -240,37 +250,42 @@
           <div class="p-3">
             <h5 class="modal-title" id="vegetarianModalLabel">Pizza Vegetarian</h5>
           <p>A delicious pizza packed with an assortment of colorful vegetables, including bell peppers, onions, mushrooms, and olives.</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+  <div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping1" name="toppings[]" value="Pepperoni">
+        Pepperoni
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping2" name="toppings[]" value="Mushrooms">
+        Mushrooms
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping3" name="toppings[]" value="Onions">
+        Onions
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping4" name="toppings[]" value="Olives">
+        Olives
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+  </div>
+<div class="cart_add">
+    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+  </div>
+</form>
+
           </div>
         </div>
       </div>
@@ -289,37 +304,42 @@
           <div class="p-3">
             <h5 class="modal-title" id="hawaiiModalLabel">Pizza Hawaii</h5>
           <p>An unconventional combination of sweet pineapple, tangy ham, and melted cheese on a pizza crust, offering a unique taste experience.</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+  <div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping1" name="toppings[]" value="Pepperoni">
+        Pepperoni
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping2" name="toppings[]" value="Mushrooms">
+        Mushrooms
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping3" name="toppings[]" value="Onions">
+        Onions
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping4" name="toppings[]" value="Olives">
+        Olives
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+  </div>
+<div class="cart_add">
+    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+  </div>
+</form>
+
           </div>
         </div>
       </div>
@@ -338,37 +358,42 @@
           <div class="p-3">
             <h5 class="modal-title" id="meatLoversModalLabel">Pizza Meat Lover's</h5>
           <p>A carnivore's delight featuring a variety of mouthwatering meats such as pepperoni, sausage, bacon, and ground beef, smothered in cheese.</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+  <div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping1" name="toppings[]" value="Pepperoni">
+        Pepperoni
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping2" name="toppings[]" value="Mushrooms">
+        Mushrooms
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping3" name="toppings[]" value="Onions">
+        Onions
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping4" name="toppings[]" value="Olives">
+        Olives
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+  </div>
+<div class="cart_add">
+    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+  </div>
+</form>
+
           </div>
         </div>
       </div>
@@ -387,37 +412,42 @@
           <div class="p-3">
             <h5 class="modal-title" id="mushroomsModalLabel">Pizza Mushrooms</h5>
           <p>A delightful pizza adorned with earthy and savory mushrooms, complemented by a blend of cheese and herbs. (vegetarian)</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="cart_add">
-              <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
-            </div>
+          <form action="cart.php" method="POST">
+  <div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping1" name="toppings[]" value="Pepperoni">
+        Pepperoni
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping2" name="toppings[]" value="Mushrooms">
+        Mushrooms
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping3" name="toppings[]" value="Onions">
+        Onions
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+    <div class="topping-option">
+      <label class="topping-name">
+        <input type="checkbox" id="topping4" name="toppings[]" value="Olives">
+        Olives
+      </label>
+      <span class="topping-price">€1.00</span>
+    </div>
+  </div>
+<div class="cart_add">
+    <button type="submit" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
+  </div>
+</form>
+
           </div>
         </div>
       </div>

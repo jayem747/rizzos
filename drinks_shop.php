@@ -46,7 +46,7 @@
       <button style="background-color: #B32134; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 20%; font-size: 18px; width: 100px;">Pizza</button>
     </a>
     <div style="width: 50px;"></div> <!-- Empty space with a width of 50px -->
-    <a href="drinks.html" style="text-decoration: none;">
+    <a href="drinks_shop.php" style="text-decoration: none;">
       <button style="background-color: #4B4A48; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 20%; font-size: 18px; width: 100px;">Drinks</button>
     </a>
   </div>
@@ -56,10 +56,10 @@
       <!-- Gallery item 1 -->
       <div class="col-6 col-md-4 col-lg-4 mb-4">
         <div class="card">
-          <img src="assets/pizzas/margherita.jpg" class="card-img-top" style="width: 100%; height: auto; border-radius: 4px;" data-toggle="modal" data-target="#margheritaModal">
+          <img src="assets/drinks/cola.jpg" class="card-img-top" style="width: 100%; height: 200px; border-radius: 4px;" data-toggle="modal" data-target="#colaModal">
           <div class="card-body">
-            <h5 class="card-title">Pizza Margherita</h5>
-            <p class="card-text">A classic pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves.<br>(vegetarian)</p>
+            <h5 class="card-title">Coca Cola</h5>
+            <p class="card-text">330ML</p>
           </div>
         </div>
       </div>
@@ -68,10 +68,10 @@
       <!-- Gallery item 2 -->
       <div class="col-6 col-md-4 col-lg-4 mb-4">
         <div class="card">
-          <img src="assets/pizzas/pepperoni.jpg" class="card-img-top" style="width: 100%; height: auto; border-radius: 4px;" data-toggle="modal" data-target="#pepperoniModal">
+          <img src="assets/drinks/fanta.jpg" class="card-img-top" style="width: 100%; height: 200px; border-radius: 4px;" data-toggle="modal" data-target="#fantaModal">
           <div class="card-body">
-            <h5 class="card-title">Pizza Pepperoni</h5>
-            <p class="card-text">A flavorful pizza loaded with zesty tomato sauce, melted cheese, and savory pepperoni slices.</p>
+            <h5 class="card-title">Fanta</h5>
+            <p class="card-text">330ML</p>
           </div>
         </div>
       </div>
@@ -82,10 +82,10 @@
       <!-- Gallery item 3 -->
       <div class="col-6 col-md-4 col-lg-4 mb-4">
         <div class="card">
-          <img src="assets/pizzas/vegetarian.jpg" alt="" class="card-img-top" style="width: 100%; height: auto; border-radius: 4px;" data-toggle="modal" data-target="#vegetarianModal">
+          <img src="assets/drinks/sprite.jpg" alt="" class="card-img-top" style="width: 100%; height: 200px; border-radius: 4px;" data-toggle="modal" data-target="#spriteModal">
           <div class="card-body">
-            <h5 class="card-title">Pizza vegetarian</h5>
-            <p class="card-text">A delicious pizza packed with an assortment of colorful vegetables, including bell peppers, onions, mushrooms, and olives.</p>
+            <h5 class="card-title">Sprite</h5>
+            <p class="card-text">330ML</p>
           </div>
         </div>
       </div>
@@ -94,10 +94,10 @@
       <!-- Gallery item 4 -->
       <div class="col-6 col-md-4 col-lg-4 mb-4">
         <div class="card">
-          <img src="assets/pizzas/hawaii.jpg" alt="" class="card-img-top" style="width: 100%; height: auto; border-radius: 4px;" data-toggle="modal" data-target="#hawaiiModal">
+          <img src="assets/drinks/arizona.jpg" alt="" class="card-img-top" style="width: 100%; height: 200px; border-radius: 4px;" data-toggle="modal" data-target="#arizonaModal">
           <div class="card-body">
-            <h5 class="card-title">Pizza hawaii</h5>
-            <p class="card-text">An unconventional combination of sweet pineapple, tangy ham, and melted cheese on a pizza crust, offering a unique taste experience</p>
+            <h5 class="card-title">Arizona Iced Tea</h5>
+            <p class="card-text">500ML</p>
           </div>
         </div>
       </div>
@@ -108,10 +108,10 @@
       <!-- Gallery item 5 -->
       <div class="col-6 col-md-4 col-lg-4 mb-4">
         <div class="card">
-          <img src="assets/pizzas/meat_lovers.jpg" alt="" class="card-img-top" style="width: 100%; height: auto; border-radius: 4px;" data-toggle="modal" data-target="#meatLoversModal">
+          <img src="assets/drinks/monster.jpg" alt="" class="card-img-top" style="width: 100%; height: 200px; border-radius: 4px;" data-toggle="modal" data-target="#monsterModal">
           <div class="card-body">
-            <h5 class="card-title">Pizza meat lover's</h5>
-            <p class="card-text">A carnivore's delight featuring a variety of mouthwatering meats such as pepperoni, sausage, bacon, and ground beef, smothered in cheese.</p>
+            <h5 class="card-title">Monster Energy</h5>
+            <p class="card-text">500ML</p>
           </div>
         </div>
       </div>
@@ -120,10 +120,10 @@
       <!-- Gallery item 6 -->
       <div class="col-6 col-md-4 col-lg-4 mb-4">
         <div class="card">
-          <img src="assets/pizzas/mushrooms.jpg" alt="" class="card-img-top" style="width: 100%; height: auto; border-radius: 4px;" data-toggle="modal" data-target="#mushroomsModal">
+          <img src="assets/drinks/monster_ultra.jpg" alt="" class="card-img-top" style="width: 100%; height: 200px; border-radius: 4px;" data-toggle="modal" data-target="#monster_ultraModal">
           <div class="card-body">
-            <h5 class="card-title">Pizza Mushrooms</h5>
-            <p class="card-text">A delightful pizza adorned with earthy and savory mushrooms, complemented by a blend of cheese and herbs.<br>(vegetarian)</p>
+            <h5 class="card-title">Monster Energy Ultra</h5>
+            <p class="card-text">500ML</p>
           </div>
         </div>
       </div>
@@ -131,45 +131,17 @@
     </div>
   </div>
 
-<!-- Modal for Pizza Margherita -->
-<div class="modal fade" id="margheritaModal" tabindex="-1" role="dialog" aria-labelledby="margheritaModalLabel"
+<!-- Modal for Cola -->
+<div class="modal fade" id="colaModal" tabindex="-1" role="dialog" aria-labelledby="colaModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
-        <img src="assets/pizzas/margherita.jpg" class="modal-image">
+        <img src="assets/drinks/cola.jpg" class="modal-image">
         <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
           <div class="p-3">
-            <h5 class="modal-title" id="margheritaModalLabel">Pizza Margherita</h5>
-            <p>A classic pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves. (vegetarian)</p>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
+            <h5 class="modal-title" id="colalLabel">Coca Cola</h5>
+            <p>330ML €2,50</p>
             <div class="cart_add">
               <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
             </div>
@@ -178,48 +150,20 @@
       </div>
     </div>
   </div>
-<!-- End Modal for Pizza Margherita -->
+<!-- End Modal for Cola -->
 
 
-  <!-- Modal for Pizza Pepperoni -->
-  <div class="modal fade" id="pepperoniModal" tabindex="-1" role="dialog" aria-labelledby="pepperoniModalLabel"
+<!-- Modal for Fanta -->
+<div class="modal fade" id="fantaModal" tabindex="-1" role="dialog" aria-labelledby="fantaModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
-        <img src="assets/pizzas/pepperoni.jpg" class="modal-image">
+        <img src="assets/drinks/fanta.jpg" class="modal-image">
         <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
           <div class="p-3">
-            <h5 class="modal-title" id="pepperoniModalLabel">Pizza Pepperoni</h5>
-          <p>A flavorful pizza loaded with zesty tomato sauce, melted cheese, and savory pepperoni slices.</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
+            <h5 class="modal-title" id="fantaModalLabel">Fanta</h5>
+          <p>330ML €2,50</p>
             <div class="cart_add">
               <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
             </div>
@@ -227,47 +171,19 @@
         </div>
       </div>
     </div>
-  </div>
+</div>
 
-  <!-- Modal for Pizza Vegetarian -->
-  <div class="modal fade" id="vegetarianModal" tabindex="-1" role="dialog" aria-labelledby="vegetarianModalLabel"
+<!-- Modal for sprite -->
+<div class="modal fade" id="spriteModal" tabindex="-1" role="dialog" aria-labelledby="spriteModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
-        <img src="assets/pizzas/vegetarian.jpg" class="modal-image">
+        <img src="assets/drinks/sprite.jpg" class="modal-image">
         <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
           <div class="p-3">
-            <h5 class="modal-title" id="vegetarianModalLabel">Pizza Vegetarian</h5>
-          <p>A delicious pizza packed with an assortment of colorful vegetables, including bell peppers, onions, mushrooms, and olives.</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
+            <h5 class="modal-title" id="spriteModalLabel">Sprite</h5>
+          <p>330ML €2,50</p>
             <div class="cart_add">
               <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
             </div>
@@ -275,48 +191,20 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- End Modal for Pizza Vegetarian -->
+</div>
+<!-- End Modal for sprite -->
 
-  <!-- Modal for Pizza Hawaii -->
-  <div class="modal fade" id="hawaiiModal" tabindex="-1" role="dialog" aria-labelledby="hawaiiModalLabel"
+<!-- Modal for Arizona -->
+<div class="modal fade" id="arizonaModal" tabindex="-1" role="dialog" aria-labelledby="arizonaModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
-        <img src="assets/pizzas/hawaii.jpg" class="modal-image">
+        <img src="assets/drinks/arizona.jpg" class="modal-image">
         <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
           <div class="p-3">
-            <h5 class="modal-title" id="hawaiiModalLabel">Pizza Hawaii</h5>
-          <p>An unconventional combination of sweet pineapple, tangy ham, and melted cheese on a pizza crust, offering a unique taste experience.</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
+            <h5 class="modal-title" id="arizonaModalLabel">Arizona Ice Tea</h5>
+          <p>500ML €2,99</p>
             <div class="cart_add">
               <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
             </div>
@@ -324,48 +212,20 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- End Modal for Pizza Hawaii -->
+</div>
+<!-- End Modal for arizona -->
 
-  <!-- Modal for Pizza Meat Lover's -->
-  <div class="modal fade" id="meatLoversModal" tabindex="-1" role="dialog" aria-labelledby="meatLoversModalLabel"
+<!-- Modal for Monster Energy -->
+<div class="modal fade" id="monsterModal" tabindex="-1" role="dialog" aria-labelledby="monsterModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
           <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
-          <img src="assets/pizzas/meat_lovers.jpg" class="modal-image">
+          <img src="assets/drinks/monster.jpg" class="modal-image">
           <div class="p-3">
-            <h5 class="modal-title" id="meatLoversModalLabel">Pizza Meat Lover's</h5>
-          <p>A carnivore's delight featuring a variety of mouthwatering meats such as pepperoni, sausage, bacon, and ground beef, smothered in cheese.</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
+            <h5 class="modal-title" id="monsterModalLabel">Monster Energy</h5>
+          <p>500ML €3,49</p>
             <div class="cart_add">
               <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
             </div>
@@ -373,48 +233,20 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- End Modal for Pizza Meat Lover's -->
+</div>
+<!-- End Modal for Monster Energy -->
 
-  <!-- Modal for Pizza Mushrooms -->
-  <div class="modal fade" id="mushroomsModal" tabindex="-1" role="dialog" aria-labelledby="mushroomsModalLabel"
+<!-- Modal for Monster ultra -->
+<div class="modal fade" id="monster_ultraModal" tabindex="-1" role="dialog" aria-labelledby="monster_ultraModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-body p-0">
           <span class="modal-close" data-dismiss="modal" aria-label="Close">&times;</span>
-          <img src="assets/pizzas/mushrooms.jpg" class="modal-image">
+          <img src="assets/drinks/monster_ultra.jpg" class="modal-image">
           <div class="p-3">
-            <h5 class="modal-title" id="mushroomsModalLabel">Pizza Mushrooms</h5>
-          <p>A delightful pizza adorned with earthy and savory mushrooms, complemented by a blend of cheese and herbs. (vegetarian)</p>
-          <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping1" value="Topping 1">
-                Topping 1
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping2" value="Topping 2">
-                Topping 2
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping3" value="Topping 3">
-                Topping 3
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
-            <div class="topping-option">
-              <label class="topping-name">
-                <input type="checkbox" name="topping4" value="Topping 4">
-                Topping 4
-              </label>
-              <span class="topping-price">€1,00</span>
-            </div>
+            <h5 class="modal-title" id="monster_ultraModalLabel">Monster Energy Ultra</h5>
+          <p>500ML €3,49</p>
             <div class="cart_add">
               <button type="button" class="btn" id="add-to-cart"><u>Add to Cart</u></button>
             </div>
@@ -422,8 +254,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- End Modal for Pizza Mushrooms -->
+</div>
+<!-- End Modal for Monster ultra -->
 
   <script src="add_to_cart.js"></script>
 </body>

@@ -26,7 +26,7 @@
                 <a class="nav-link" href="#"><img src="assets/shopping.png" width="35" height="auto"></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><img src="assets/user.png" width="26" height="auto"></a>
+                <a class="nav-link" ><img src="assets/user.png" width="26" height="auto"></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="index.php""><img src="assets/home.png" width="32" height="auto"></a>
@@ -41,7 +41,7 @@
       <button style="background-color: #B32134; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 20%; font-size: 18px; width: 100px;">Pizza</button>
     </a>
     <div style="width: 50px;"></div> <!-- Empty space with a width of 50px -->
-    <a href="drinks.html" style="text-decoration: none;">
+    <a href="drinks_shop.php" style="text-decoration: none;">
       <button style="background-color: #B32134; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 20%; font-size: 18px; width: 100px;">Drinks</button>
     </a>
   </div>
