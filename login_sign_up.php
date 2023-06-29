@@ -5,7 +5,8 @@ session_start();
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "rizzo";
+$dbname = "rizzos";
+$tbl = "users";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
@@ -95,7 +96,10 @@ if (isset($_GET['logout'])) {
     exit();
 }
 
-// HTML form for registration, login, change password, and logout
+// Redirect to index.php
+$redirect = isset($_POST['redirect']) ? $_POST['redirect'] : 'index.php';
+header("Location: $redirect");
+exit;
 ?>
 <!DOCTYPE html>
 <html>

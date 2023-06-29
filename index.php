@@ -7,6 +7,8 @@
     <title>Rizzo's</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
 </head>
 <body style="text-align: center;">
     
@@ -76,6 +78,7 @@
                             <input type="text" name="username" placeholder="Username" required>
                             <input type="password" name="password" placeholder="Password" required>
                             <button type="submit" name="login">Login</button>
+                            <input type="hidden" name="redirect" value="index.php"> <!-- Add a hidden input to specify the redirect location -->
                         </form>
                     </div>
                     <div class="col-md-6">
@@ -83,6 +86,7 @@
                             <input type="text" name="username" placeholder="Username" required>
                             <input type="password" name="password" placeholder="Password" required>
                             <button type="submit" name="register">Register</button>
+                            <input type="hidden" name="redirect" value="index.php"> <!-- Add a hidden input to specify the redirect location -->
                         </form>
                     </div>
                 </div>
@@ -91,6 +95,8 @@
     </div>
 </div>
 <!-- End Modal for sign in / sign up -->
+
+
 
 
 
