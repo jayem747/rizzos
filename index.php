@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rizzo's</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body style="text-align: center;">
     
-<nav class="navbar navbar-expand-md navbar-light sticky-top navbar-light bg-light " style="border:3px solid #4B4A48">
+<nav class="navbar navbar-expand-md navbar-light sticky-top navbar-light bg-light" style="border: 3px solid #4B4A48">
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.php"><img src="assets/logo.png" width="120" height="28""></a>
+                <a class="nav-link" href="index.php"><img src="assets/logo.png" width="120" height="28"></a>
             </li>
         </ul>
     </div>
@@ -26,14 +27,18 @@
                 <a class="nav-link" href="#"><img src="assets/shopping.png" width="35" height="auto"></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" ><img src="assets/user.png" width="26" height="auto"></a>
-            </li>
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#userModal">
+        <img src="assets/user.png" width="26" height="auto">
+    </a>
+</li>
+
             <li class="nav-item">
-                <a class="nav-link" href="index.php""><img src="assets/home.png" width="32" height="auto"></a>
+                <a class="nav-link" href="index.php"><img src="assets/home.png" width="32" height="auto"></a>
             </li>
         </ul>
     </div>
 </nav>
+
 
 <div style="height: 50px;"></div> <!-- Empty space with a height of 50px -->
   <div style="display: flex; justify-content: center;">
@@ -55,6 +60,30 @@
   <a href="https://example.com/link3" style="display: block;">
     <img src="assets/aanbiedingen/aanbieding3.jpg" style="margin: 0 auto;" />
   </a>
+
+<!-- Modal for sign in / sign up -->
+<div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="userModalLabel">Sign In / Sign Up</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Add your sign-in / sign-up form here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal for sign in / sign up -->
+
 </body>
 
   <footer style="text-align: left; padding: 10px; background-color: #ffffff; border: 3px solid #4B4A48; margin-top:50px;">
