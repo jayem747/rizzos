@@ -142,7 +142,7 @@
           <div class="p-3">
             <h5 class="modal-title" id="margheritaModalLabel">Pizza Margherita</h5>
             <p>A classic pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves. (vegetarian)</p>
-<form action="cart.php" method="POST">
+<form action="add_to_cart.php" method="POST">
   <div>
     <div class="topping-option">
       <label class="topping-name">
@@ -197,7 +197,7 @@
           <div class="p-3">
             <h5 class="modal-title" id="pepperoniModalLabel">Pizza Pepperoni</h5>
           <p>A flavorful pizza loaded with zesty tomato sauce, melted cheese, and savory pepperoni slices.</p>
-          <form action="cart.php" method="POST">
+          <form action="add_to_cart.php" method="POST">
   <div>
     <div class="topping-option">
       <label class="topping-name">
@@ -250,7 +250,7 @@
           <div class="p-3">
             <h5 class="modal-title" id="vegetarianModalLabel">Pizza Vegetarian</h5>
           <p>A delicious pizza packed with an assortment of colorful vegetables, including bell peppers, onions, mushrooms, and olives.</p>
-          <form action="cart.php" method="POST">
+          <form action="add_to_cart.php" method="POST">
   <div>
     <div class="topping-option">
       <label class="topping-name">
@@ -304,7 +304,7 @@
           <div class="p-3">
             <h5 class="modal-title" id="hawaiiModalLabel">Pizza Hawaii</h5>
           <p>An unconventional combination of sweet pineapple, tangy ham, and melted cheese on a pizza crust, offering a unique taste experience.</p>
-          <form action="cart.php" method="POST">
+          <form action="add_to_cart.php" method="POST">
   <div>
     <div class="topping-option">
       <label class="topping-name">
@@ -358,7 +358,7 @@
           <div class="p-3">
             <h5 class="modal-title" id="meatLoversModalLabel">Pizza Meat Lover's</h5>
           <p>A carnivore's delight featuring a variety of mouthwatering meats such as pepperoni, sausage, bacon, and ground beef, smothered in cheese.</p>
-          <form action="cart.php" method="POST">
+          <form action="add_to_cart.php" method="POST">
   <div>
     <div class="topping-option">
       <label class="topping-name">
@@ -412,7 +412,7 @@
           <div class="p-3">
             <h5 class="modal-title" id="mushroomsModalLabel">Pizza Mushrooms</h5>
           <p>A delightful pizza adorned with earthy and savory mushrooms, complemented by a blend of cheese and herbs. (vegetarian)</p>
-          <form action="cart.php" method="POST">
+          <form action="add_to_cart.php" method="POST">
   <div>
     <div class="topping-option">
       <label class="topping-name">
